@@ -3,7 +3,16 @@
 This project performs **background estimation** and **motion detection** from a video file (`videoclipmasini.mp4`) using OpenCV in Python. It uses both **median** and **mean** (average) background modeling techniques and applies several thresholding methods (fixed threshold, adaptive, and Otsu) to detect motion in video frames.
 
 ---
-[🎬 View Output Video: Median + Otsu](https://github.com/DobreaMariusDorian10/Motion-Detection/blob/main/video_dif_mediana_otsu.mp4)
+
+## 📸 Input & Output Preview
+
+### 🎞 Original Video (GIF Preview)
+![Original Video](https://github.com/DobreaMariusDorian10/Motion-Detection/blob/78ba63374486ceb519929bc120af24ed3aa656a3/videoclipmasini.gif)
+
+### 🎯 Motion Detection Result (Median + Otsu)
+![Motion Detection Output](https://github.com/DobreaMariusDorian10/Motion-Detection/blob/78ba63374486ceb519929bc120af24ed3aa656a3/video_dif_mediana_otsu.gif)
+
+---
 
 ## 📌 Features
 
@@ -48,6 +57,6 @@ This project performs **background estimation** and **motion detection** from a 
 - Matplotlib (for displaying frames)
 - Google Colab (for `cv2_imshow()` and file operations)
 
-Install required libraries if needed:
+### Install required libraries:
 ```bash
 pip install opencv-python numpy matplotlib
